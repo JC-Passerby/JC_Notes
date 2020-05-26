@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  BaseViewController.h
 //  JC_Notes
 //
 //  Created by 刘某某 on 2020/5/26.
@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-@property (strong, nonatomic) UIWindow *window;
+
+NS_ASSUME_NONNULL_BEGIN
+
+@interface BaseViewController : UIViewController
+
 @end
 
+NS_ASSUME_NONNULL_END
