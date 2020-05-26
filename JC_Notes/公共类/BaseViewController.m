@@ -24,16 +24,6 @@
     
 }
 
-
-- (UITableView *)tableview {
-    if (_tableview == nil) {
-        _tableview = [[UITableView alloc] initWithFrame:self.view.frame];
-        _tableview.delegate = self;
-        _tableview.dataSource = self;
-    }
-    return _tableview;
-}
-
 #pragma mark - UITableViewDataSource , UITableViewDelegate
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     return self.dataArray.count;
@@ -58,4 +48,14 @@
         [self.navigationController pushViewController:csvc animated:YES];
     }
 }
+
+- (UITableView *)tableview {
+    if (_tableview == nil) {
+        _tableview = [[UITableView alloc] initWithFrame:self.view.frame];
+        _tableview.delegate = self;
+        _tableview.dataSource = self;
+    }
+    return _tableview;
+}
+
 @end

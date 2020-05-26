@@ -23,15 +23,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    [self.view addSubview:self.listContainerView];
-    
     self.titlesArray = @[@"全部",@"审核中",@"审核通过",@"审核驳回"];
     self.titleCategoryView.titles = self.titlesArray;
     self.titleCategoryView.listContainer = self.listContainerView;
     self.titleCategoryView.delegate = self;
     self.titleCategoryView.backgroundColor = [UIColor whiteColor];
     [self.view addSubview:self.titleCategoryView];
+    [self.view addSubview:self.listContainerView];
     
     JXCategoryIndicatorLineView *lineView = [[JXCategoryIndicatorLineView alloc] init];
     lineView.indicatorWidth = JXCategoryViewAutomaticDimension;
@@ -61,16 +59,18 @@
 #pragma mark - JXCategoryViewDelegate
 
 - (void)categoryView:(JXCategoryBaseView *)categoryView didSelectedItemAtIndex:(NSInteger)index {
-    //侧滑手势处理
     self.navigationController.interactivePopGestureRecognizer.enabled = (index == 0);
     [self.cslvc loadDataWithCurrentIndex:index];
 }
 
 
 #pragma mark - JXCategoryListContainerViewDelegate
-
 - (id<JXCategoryListContentViewDelegate>)listContainerView:(JXCategoryListContainerView *)listContainerView initListForIndex:(NSInteger)index {
+    
     self.cslvc = [[CategorySwitchListViewController alloc] init];
+    if (index == 0) {
+         [self.cslvc loadDataWithCurrentIndex:index];
+    }
     return self.cslvc;
 }
 
