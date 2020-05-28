@@ -7,11 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BaseHeader.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface BaseViewController : UIViewController
-
+- (void)JCPushViewController:(NSString *)className withNavigationTitle:(NSString *)title;
 @end
 
 NS_ASSUME_NONNULL_END

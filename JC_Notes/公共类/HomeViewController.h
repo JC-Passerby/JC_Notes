@@ -1,5 +1,5 @@
 //
-//  CategorySwitchViewController.h
+//  HomeViewController.h
 //  JC_Notes
 //
 //  Created by 刘某某 on 2020/5/28.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface CategorySwitchViewController : BaseViewController
+@interface HomeViewController : BaseViewController
 
 @end
 

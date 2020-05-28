@@ -2,15 +2,15 @@
 //  CategorySwitchViewController.m
 //  JC_Notes
 //
-//  Created by 刘某某 on 2020/5/26.
+//  Created by 刘某某 on 2020/5/28.
 //  Copyright © 2020 刘某某. All rights reserved.
 //
 
 #import "CategorySwitchViewController.h"
 #import "JXCategoryTitleView.h"
 #import "JXCategoryListContainerView.h"
-#import "CategorySwitchListViewController.h"
 #import "JXCategoryIndicatorLineView.h"
+#import "CategorySwitchListViewController.h"
 
 @interface CategorySwitchViewController ()<JXCategoryViewDelegate,JXCategoryListContainerViewDelegate>
 @property (nonatomic, strong) JXCategoryTitleView *titleCategoryView;
@@ -23,7 +23,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.titlesArray = @[@"全部",@"审核中",@"审核通过",@"审核驳回"];
+    self.titlesArray = @[@"子鼠",@"丑牛",@"寅虎",@"卯兔",@"辰龙",@"巳蛇",@"午马",@"未羊",@"申猴",@"酉鸡",@"戌狗",@"亥猪"];
     self.titleCategoryView.titles = self.titlesArray;
     self.titleCategoryView.listContainer = self.listContainerView;
     self.titleCategoryView.delegate = self;
