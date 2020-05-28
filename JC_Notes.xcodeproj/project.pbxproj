@@ -15,6 +15,7 @@
 		BA173C8F247FA87C00A40BA0 /* CategorySwitchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA173C8E247FA87C00A40BA0 /* CategorySwitchViewController.m */; };
 		BA173C92247FA89000A40BA0 /* CategorySwitchListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA173C91247FA89000A40BA0 /* CategorySwitchListViewController.m */; };
 		BA173CBA247FAF9D00A40BA0 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA173CB9247FAF9D00A40BA0 /* HomeViewController.m */; };
+		BA4CDAFE247FB55000D117E9 /* UINavigationController+customizeBackButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4CDAFD247FB55000D117E9 /* UINavigationController+customizeBackButton.m */; };
 		BA7A4B1C247D254400A00C05 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA7A4B1B247D254400A00C05 /* BaseViewController.m */; };
 		BA7A4B25247D261300A00C05 /* BaseNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA7A4B24247D261300A00C05 /* BaseNavigationViewController.m */; };
 		BABA2C20247CFCF100419F01 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BABA2C1F247CFCF100419F01 /* AppDelegate.m */; };
@@ -62,6 +63,8 @@
 		BA173C93247FA96500A40BA0 /* BaseHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseHeader.h; sourceTree = "<group>"; };
 		BA173CB8247FAF9D00A40BA0 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		BA173CB9247FAF9D00A40BA0 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		BA4CDAFC247FB55000D117E9 /* UINavigationController+customizeBackButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+customizeBackButton.h"; sourceTree = "<group>"; };
+		BA4CDAFD247FB55000D117E9 /* UINavigationController+customizeBackButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+customizeBackButton.m"; sourceTree = "<group>"; };
 		BA7A4B1A247D254400A00C05 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		BA7A4B1B247D254400A00C05 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		BA7A4B23247D261300A00C05 /* BaseNavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseNavigationViewController.h; sourceTree = "<group>"; };
@@ -149,6 +152,8 @@
 				BA7A4B1B247D254400A00C05 /* BaseViewController.m */,
 				BA7A4B23247D261300A00C05 /* BaseNavigationViewController.h */,
 				BA7A4B24247D261300A00C05 /* BaseNavigationViewController.m */,
+				BA4CDAFC247FB55000D117E9 /* UINavigationController+customizeBackButton.h */,
+				BA4CDAFD247FB55000D117E9 /* UINavigationController+customizeBackButton.m */,
 				BA173C93247FA96500A40BA0 /* BaseHeader.h */,
 			);
 			path = "公共类";
@@ -394,6 +399,7 @@
 				BA173C68247FA23C00A40BA0 /* JCPageControlView.m in Sources */,
 				BA173CBA247FAF9D00A40BA0 /* HomeViewController.m in Sources */,
 				BA7A4B25247D261300A00C05 /* BaseNavigationViewController.m in Sources */,
+				BA4CDAFE247FB55000D117E9 /* UINavigationController+customizeBackButton.m in Sources */,
 				BA173C8C247FA85F00A40BA0 /* JCBannerViewController.m in Sources */,
 				BA173C66247FA23C00A40BA0 /* UIView+JCLayout.m in Sources */,
 				BA173C67247FA23C00A40BA0 /* JCBannerView.m in Sources */,
