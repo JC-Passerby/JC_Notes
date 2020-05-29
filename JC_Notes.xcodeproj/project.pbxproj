@@ -133,12 +133,12 @@
 		BA173C5F247FA23C00A40BA0 /* JCBannerView */ = {
 			isa = PBXGroup;
 			children = (
-				BA173C60247FA23C00A40BA0 /* JCPageControlView.h */,
-				BA173C61247FA23C00A40BA0 /* UIView+JCLayout.m */,
-				BA173C62247FA23C00A40BA0 /* JCBannerView.m */,
-				BA173C63247FA23C00A40BA0 /* JCPageControlView.m */,
-				BA173C64247FA23C00A40BA0 /* UIView+JCLayout.h */,
 				BA173C65247FA23C00A40BA0 /* JCBannerView.h */,
+				BA173C62247FA23C00A40BA0 /* JCBannerView.m */,
+				BA173C64247FA23C00A40BA0 /* UIView+JCLayout.h */,
+				BA173C61247FA23C00A40BA0 /* UIView+JCLayout.m */,
+				BA173C60247FA23C00A40BA0 /* JCPageControlView.h */,
+				BA173C63247FA23C00A40BA0 /* JCPageControlView.m */,
 			);
 			path = JCBannerView;
 			sourceTree = "<group>";

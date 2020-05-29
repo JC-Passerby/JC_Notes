@@ -17,10 +17,10 @@
 #define JCStringFormat(ISstr)  [NSString stringWithFormat:@"%@",ISstr]
 
 //判断iPhoneX
-#define iOS11 ([[[UIDevice currentDevice] systemVersion] floatValue] >= 11.0)
+#define iOS11Later ([[[UIDevice currentDevice] systemVersion] floatValue] >= 11.0)
 #define isIphoneX ({\
 BOOL isPhoneX = NO;\
-if (iOS11) {\
+if (iOS11Later) {\
     if (!UIEdgeInsetsEqualToEdgeInsets([UIApplication sharedApplication].delegate.window.safeAreaInsets, UIEdgeInsetsZero)) {\
     isPhoneX = YES;\
     }\

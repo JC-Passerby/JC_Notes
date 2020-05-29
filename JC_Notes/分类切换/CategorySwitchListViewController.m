@@ -24,10 +24,5 @@
     NSLog(@"第%@页",@(currentIndex));
 }
 
-#pragma mark - JXCategoryListContentViewDelegate
-- (UIView *)listView {
-    return self.view;
-}
-
 
 @end

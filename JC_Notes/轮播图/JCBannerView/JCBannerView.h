@@ -2,7 +2,7 @@
 //  JCBannerView.h
 //  RotationChart
 //
-//  Created by 木子王木木 on 2020/3/19.
+//  Created by 刘某某 on 2020/3/19.
 //  Copyright © 2020 rotationchart. All rights reserved.
 //
 
