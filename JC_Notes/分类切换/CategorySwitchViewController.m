@@ -112,7 +112,6 @@
     if (!_titleCategoryView) {
         _titleCategoryView = [[JXCategoryTitleView alloc] init];
         _titleCategoryView.frame = CGRectMake(0, JCTopBarHeight, JCScreenWidth, [self preferredCategoryViewHeight]);
-
     }
     return _titleCategoryView;
 }
