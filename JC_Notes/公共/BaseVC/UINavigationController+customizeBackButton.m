@@ -8,7 +8,7 @@
 
 #import "UINavigationController+customizeBackButton.h"
 #import <objc/runtime.h>
-
+#import "FluentDarkModeKit.h"
 
 @implementation UINavigationController (customizeBackButton)
 + (void)load {
@@ -27,7 +27,8 @@
 
 - (void)replacePushViewController:(UIViewController *)viewController animated:(BOOL)animated {
     if (self.viewControllers.count > 0) {
-        UIBarButtonItem *backItem = [[UIBarButtonItem alloc] initWithImage:[[UIImage imageNamed:@"navBar_black"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal] style:UIBarButtonItemStylePlain target:self action:@selector(back)];
+        UIImage *backImage = [UIImage dm_imageWithLightImage:[UIImage imageNamed:@"jc_navbar_black_icon"] darkImage:[UIImage imageNamed:@"jc_navbar_black_darkmode_icon"]];
+        UIBarButtonItem *backItem = [[UIBarButtonItem alloc] initWithImage:[backImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal] style:UIBarButtonItemStylePlain target:self action:@selector(back)];
         backItem.imageInsets = UIEdgeInsetsMake(0, -5, 0, 0);
         viewController.navigationItem.leftBarButtonItem = backItem;
         viewController.hidesBottomBarWhenPushed = YES;

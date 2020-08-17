@@ -12,7 +12,7 @@
 #import "JXCategoryIndicatorLineView.h"
 #import "CategorySwitchListViewController.h"
 
-@interface CategorySwitchViewController ()<JXCategoryViewDelegate,JXCategoryListContainerViewDelegate>
+@interface CategorySwitchViewController ()<JXCategoryViewDelegate>
 @property (nonatomic, strong) JXCategoryTitleView *titleCategoryView;
 @property (nonatomic, strong) NSArray *titlesArray;
 @property (nonatomic, strong) NSMutableArray <CategorySwitchListViewController *> *listVCArray;

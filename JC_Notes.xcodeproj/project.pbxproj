@@ -15,9 +15,16 @@
 		BA173C8F247FA87C00A40BA0 /* CategorySwitchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA173C8E247FA87C00A40BA0 /* CategorySwitchViewController.m */; };
 		BA173C92247FA89000A40BA0 /* CategorySwitchListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA173C91247FA89000A40BA0 /* CategorySwitchListViewController.m */; };
 		BA173CBA247FAF9D00A40BA0 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA173CB9247FAF9D00A40BA0 /* HomeViewController.m */; };
-		BA4CDAFE247FB55000D117E9 /* UINavigationController+customizeBackButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4CDAFD247FB55000D117E9 /* UINavigationController+customizeBackButton.m */; };
-		BA7A4B1C247D254400A00C05 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA7A4B1B247D254400A00C05 /* BaseViewController.m */; };
-		BA7A4B25247D261300A00C05 /* BaseNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA7A4B24247D261300A00C05 /* BaseNavigationViewController.m */; };
+		BAB4CC1624EA813100A0AEEE /* DMDynamicImage.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB4CC0724EA813100A0AEEE /* DMDynamicImage.m */; };
+		BAB4CC1724EA813100A0AEEE /* UIView+DarkModeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB4CC0924EA813100A0AEEE /* UIView+DarkModeKit.m */; };
+		BAB4CC1824EA813100A0AEEE /* NSObject+DarkModeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB4CC0A24EA813100A0AEEE /* NSObject+DarkModeKit.m */; };
+		BAB4CC1924EA813100A0AEEE /* DMTraitCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB4CC0B24EA813100A0AEEE /* DMTraitCollection.m */; };
+		BAB4CC1A24EA813100A0AEEE /* DMDynamicColor.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB4CC0F24EA813100A0AEEE /* DMDynamicColor.m */; };
+		BAB4CC1B24EA813100A0AEEE /* UIColor+DarkModeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB4CC1324EA813100A0AEEE /* UIColor+DarkModeKit.m */; };
+		BAB4CC1C24EA813100A0AEEE /* UIImage+DarkModeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB4CC1424EA813100A0AEEE /* UIImage+DarkModeKit.m */; };
+		BAB4CC2424EA925C00A0AEEE /* UINavigationController+customizeBackButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB4CC1E24EA925C00A0AEEE /* UINavigationController+customizeBackButton.m */; };
+		BAB4CC2524EA925C00A0AEEE /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB4CC1F24EA925C00A0AEEE /* BaseViewController.m */; };
+		BAB4CC2624EA925C00A0AEEE /* BaseNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB4CC2224EA925C00A0AEEE /* BaseNavigationViewController.m */; };
 		BABA2C20247CFCF100419F01 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BABA2C1F247CFCF100419F01 /* AppDelegate.m */; };
 		BABA2C29247CFCF100419F01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BABA2C27247CFCF100419F01 /* Main.storyboard */; };
 		BABA2C2B247CFCF100419F01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BABA2C2A247CFCF100419F01 /* Assets.xcassets */; };
@@ -63,12 +70,27 @@
 		BA173C93247FA96500A40BA0 /* BaseHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseHeader.h; sourceTree = "<group>"; };
 		BA173CB8247FAF9D00A40BA0 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		BA173CB9247FAF9D00A40BA0 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
-		BA4CDAFC247FB55000D117E9 /* UINavigationController+customizeBackButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+customizeBackButton.h"; sourceTree = "<group>"; };
-		BA4CDAFD247FB55000D117E9 /* UINavigationController+customizeBackButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+customizeBackButton.m"; sourceTree = "<group>"; };
-		BA7A4B1A247D254400A00C05 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
-		BA7A4B1B247D254400A00C05 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
-		BA7A4B23247D261300A00C05 /* BaseNavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseNavigationViewController.h; sourceTree = "<group>"; };
-		BA7A4B24247D261300A00C05 /* BaseNavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationViewController.m; sourceTree = "<group>"; };
+		BAB4CC0624EA813100A0AEEE /* DMDynamicColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMDynamicColor.h; sourceTree = "<group>"; };
+		BAB4CC0724EA813100A0AEEE /* DMDynamicImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMDynamicImage.m; sourceTree = "<group>"; };
+		BAB4CC0824EA813100A0AEEE /* FluentDarkModeKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FluentDarkModeKit.h; sourceTree = "<group>"; };
+		BAB4CC0924EA813100A0AEEE /* UIView+DarkModeKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DarkModeKit.m"; sourceTree = "<group>"; };
+		BAB4CC0A24EA813100A0AEEE /* NSObject+DarkModeKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DarkModeKit.m"; sourceTree = "<group>"; };
+		BAB4CC0B24EA813100A0AEEE /* DMTraitCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMTraitCollection.m; sourceTree = "<group>"; };
+		BAB4CC0C24EA813100A0AEEE /* UIImage+DarkModeKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+DarkModeKit.h"; sourceTree = "<group>"; };
+		BAB4CC0D24EA813100A0AEEE /* UIColor+DarkModeKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+DarkModeKit.h"; sourceTree = "<group>"; };
+		BAB4CC0E24EA813100A0AEEE /* DMDynamicImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMDynamicImage.h; sourceTree = "<group>"; };
+		BAB4CC0F24EA813100A0AEEE /* DMDynamicColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMDynamicColor.m; sourceTree = "<group>"; };
+		BAB4CC1024EA813100A0AEEE /* NSObject+DarkModeKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DarkModeKit.h"; sourceTree = "<group>"; };
+		BAB4CC1124EA813100A0AEEE /* UIView+DarkModeKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DarkModeKit.h"; sourceTree = "<group>"; };
+		BAB4CC1324EA813100A0AEEE /* UIColor+DarkModeKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+DarkModeKit.m"; sourceTree = "<group>"; };
+		BAB4CC1424EA813100A0AEEE /* UIImage+DarkModeKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+DarkModeKit.m"; sourceTree = "<group>"; };
+		BAB4CC1524EA813100A0AEEE /* DMTraitCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMTraitCollection.h; sourceTree = "<group>"; };
+		BAB4CC1E24EA925C00A0AEEE /* UINavigationController+customizeBackButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+customizeBackButton.m"; sourceTree = "<group>"; };
+		BAB4CC1F24EA925C00A0AEEE /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		BAB4CC2024EA925C00A0AEEE /* BaseNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationViewController.h; sourceTree = "<group>"; };
+		BAB4CC2124EA925C00A0AEEE /* UINavigationController+customizeBackButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+customizeBackButton.h"; sourceTree = "<group>"; };
+		BAB4CC2224EA925C00A0AEEE /* BaseNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationViewController.m; sourceTree = "<group>"; };
+		BAB4CC2324EA925C00A0AEEE /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		BABA2C1B247CFCF100419F01 /* JC_Notes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JC_Notes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BABA2C1E247CFCF100419F01 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BABA2C1F247CFCF100419F01 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -143,20 +165,16 @@
 			path = JCBannerView;
 			sourceTree = "<group>";
 		};
-		BA7A4B26247D266800A00C05 /* 公共类 */ = {
+		BA7A4B26247D266800A00C05 /* 公共 */ = {
 			isa = PBXGroup;
 			children = (
+				BAB4CC1D24EA925C00A0AEEE /* BaseVC */,
+				BAB4CC0524EA813100A0AEEE /* DarkModeCore */,
 				BA173CB8247FAF9D00A40BA0 /* HomeViewController.h */,
 				BA173CB9247FAF9D00A40BA0 /* HomeViewController.m */,
-				BA7A4B1A247D254400A00C05 /* BaseViewController.h */,
-				BA7A4B1B247D254400A00C05 /* BaseViewController.m */,
-				BA7A4B23247D261300A00C05 /* BaseNavigationViewController.h */,
-				BA7A4B24247D261300A00C05 /* BaseNavigationViewController.m */,
-				BA4CDAFC247FB55000D117E9 /* UINavigationController+customizeBackButton.h */,
-				BA4CDAFD247FB55000D117E9 /* UINavigationController+customizeBackButton.m */,
 				BA173C93247FA96500A40BA0 /* BaseHeader.h */,
 			);
-			path = "公共类";
+			path = "公共";
 			sourceTree = "<group>";
 		};
 		BA7A4B2E247D280700A00C05 /* 分类切换 */ = {
@@ -168,6 +186,41 @@
 				BA173C91247FA89000A40BA0 /* CategorySwitchListViewController.m */,
 			);
 			path = "分类切换";
+			sourceTree = "<group>";
+		};
+		BAB4CC0524EA813100A0AEEE /* DarkModeCore */ = {
+			isa = PBXGroup;
+			children = (
+				BAB4CC0824EA813100A0AEEE /* FluentDarkModeKit.h */,
+				BAB4CC0624EA813100A0AEEE /* DMDynamicColor.h */,
+				BAB4CC0F24EA813100A0AEEE /* DMDynamicColor.m */,
+				BAB4CC0E24EA813100A0AEEE /* DMDynamicImage.h */,
+				BAB4CC0724EA813100A0AEEE /* DMDynamicImage.m */,
+				BAB4CC1524EA813100A0AEEE /* DMTraitCollection.h */,
+				BAB4CC0B24EA813100A0AEEE /* DMTraitCollection.m */,
+				BAB4CC1124EA813100A0AEEE /* UIView+DarkModeKit.h */,
+				BAB4CC0924EA813100A0AEEE /* UIView+DarkModeKit.m */,
+				BAB4CC1024EA813100A0AEEE /* NSObject+DarkModeKit.h */,
+				BAB4CC0A24EA813100A0AEEE /* NSObject+DarkModeKit.m */,
+				BAB4CC0C24EA813100A0AEEE /* UIImage+DarkModeKit.h */,
+				BAB4CC1424EA813100A0AEEE /* UIImage+DarkModeKit.m */,
+				BAB4CC0D24EA813100A0AEEE /* UIColor+DarkModeKit.h */,
+				BAB4CC1324EA813100A0AEEE /* UIColor+DarkModeKit.m */,
+			);
+			path = DarkModeCore;
+			sourceTree = "<group>";
+		};
+		BAB4CC1D24EA925C00A0AEEE /* BaseVC */ = {
+			isa = PBXGroup;
+			children = (
+				BAB4CC2324EA925C00A0AEEE /* BaseViewController.h */,
+				BAB4CC1F24EA925C00A0AEEE /* BaseViewController.m */,
+				BAB4CC2024EA925C00A0AEEE /* BaseNavigationViewController.h */,
+				BAB4CC2224EA925C00A0AEEE /* BaseNavigationViewController.m */,
+				BAB4CC2124EA925C00A0AEEE /* UINavigationController+customizeBackButton.h */,
+				BAB4CC1E24EA925C00A0AEEE /* UINavigationController+customizeBackButton.m */,
+			);
+			path = BaseVC;
 			sourceTree = "<group>";
 		};
 		BABA2C12247CFCF100419F01 = {
@@ -197,7 +250,7 @@
 			children = (
 				BA173C55247FA12200A40BA0 /* 轮播图 */,
 				BA7A4B2E247D280700A00C05 /* 分类切换 */,
-				BA7A4B26247D266800A00C05 /* 公共类 */,
+				BA7A4B26247D266800A00C05 /* 公共 */,
 				BABA2C1E247CFCF100419F01 /* AppDelegate.h */,
 				BABA2C1F247CFCF100419F01 /* AppDelegate.m */,
 				BABA2C27247CFCF100419F01 /* Main.storyboard */,
@@ -303,6 +356,7 @@
 				TargetAttributes = {
 					BABA2C1A247CFCF100419F01 = {
 						CreatedOnToolsVersion = 11.5;
+						LastSwiftMigration = 1160;
 					};
 					BABA2C35247CFCF100419F01 = {
 						CreatedOnToolsVersion = 11.5;
@@ -392,17 +446,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA173C8F247FA87C00A40BA0 /* CategorySwitchViewController.m in Sources */,
+				BAB4CC1B24EA813100A0AEEE /* UIColor+DarkModeKit.m in Sources */,
+				BAB4CC1C24EA813100A0AEEE /* UIImage+DarkModeKit.m in Sources */,
 				BABA2C20247CFCF100419F01 /* AppDelegate.m in Sources */,
+				BAB4CC2424EA925C00A0AEEE /* UINavigationController+customizeBackButton.m in Sources */,
 				BA173C92247FA89000A40BA0 /* CategorySwitchListViewController.m in Sources */,
-				BA7A4B1C247D254400A00C05 /* BaseViewController.m in Sources */,
 				BABA2C31247CFCF100419F01 /* main.m in Sources */,
+				BAB4CC1824EA813100A0AEEE /* NSObject+DarkModeKit.m in Sources */,
 				BA173C68247FA23C00A40BA0 /* JCPageControlView.m in Sources */,
 				BA173CBA247FAF9D00A40BA0 /* HomeViewController.m in Sources */,
-				BA7A4B25247D261300A00C05 /* BaseNavigationViewController.m in Sources */,
-				BA4CDAFE247FB55000D117E9 /* UINavigationController+customizeBackButton.m in Sources */,
 				BA173C8C247FA85F00A40BA0 /* JCBannerViewController.m in Sources */,
 				BA173C66247FA23C00A40BA0 /* UIView+JCLayout.m in Sources */,
+				BAB4CC2624EA925C00A0AEEE /* BaseNavigationViewController.m in Sources */,
+				BAB4CC1624EA813100A0AEEE /* DMDynamicImage.m in Sources */,
+				BAB4CC1A24EA813100A0AEEE /* DMDynamicColor.m in Sources */,
+				BAB4CC1724EA813100A0AEEE /* UIView+DarkModeKit.m in Sources */,
 				BA173C67247FA23C00A40BA0 /* JCBannerView.m in Sources */,
+				BAB4CC2524EA925C00A0AEEE /* BaseViewController.m in Sources */,
+				BAB4CC1924EA813100A0AEEE /* DMTraitCollection.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -572,17 +633,22 @@
 			baseConfigurationReference = 04E1077BC2BDA116C48573F7 /* Pods-JC_Notes.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 927T384N62;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8SA549934A;
 				INFOPLIST_FILE = JC_Notes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ronglian.newrongxin;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinruan.develop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = newrongxinprofile;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "JC_Notes/公共类/JC_Notes-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -592,17 +658,21 @@
 			baseConfigurationReference = 72342E5671C216D6D7AFE2EE /* Pods-JC_Notes.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 927T384N62;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8SA549934A;
 				INFOPLIST_FILE = JC_Notes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ronglian.newrongxin;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinruan.develop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = newrongxinprofile;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "JC_Notes/公共类/JC_Notes-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

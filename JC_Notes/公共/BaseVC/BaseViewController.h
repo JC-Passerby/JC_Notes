@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "BaseHeader.h"
+#import "FluentDarkModeKit.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

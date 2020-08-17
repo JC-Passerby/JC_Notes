@@ -8,6 +8,7 @@
 
 #import "BaseViewController.h"
 
+
 @interface BaseViewController ()
 
 @end
@@ -16,7 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor whiteColor];
+    self.view.backgroundColor = [UIColor dm_colorWithLightColor:[UIColor whiteColor] darkColor:[UIColor blackColor]];
 }
 
 
@@ -26,7 +27,6 @@
     controller.navigationItem.title = title;
     [self.navigationController pushViewController:controller animated:YES];
 }
-
 
 
 @end
