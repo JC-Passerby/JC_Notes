@@ -48,26 +48,21 @@
             return [UIColor whiteColor];
         }];
     }
-    if ([self firstColor:backgroundColor secondColor:[UIColor whiteColor]]) {
+    if ([self compareColor:backgroundColor secondColor:[UIColor whiteColor]]) {
         return self.lightImage;
     }else{
         return self.darkImage;
     }
 }
 
--(BOOL)firstColor:(UIColor*)firstColor secondColor:(UIColor*)secondColor
-{
-    if (CGColorEqualToColor(firstColor.CGColor, secondColor.CGColor))
-    {
-        NSLog(@"颜色相同");
+-(BOOL)compareColor:(UIColor*)firstColor secondColor:(UIColor*)secondColor{
+    if (CGColorEqualToColor(firstColor.CGColor, secondColor.CGColor)){
         return YES;
-    }
-    else
-    {
-        NSLog(@"颜色不同");
+    }else{
         return NO;
     }
 }
+
 - (NSMethodSignature *)methodSignatureForSelector:(SEL)sel {
   return [self.resolvedImage methodSignatureForSelector:sel];
 }
